@@ -17,11 +17,11 @@ with open(path, 'r', encoding='UTF-8') as f:
 
 DIR = 'files'
 
-wanted_symbol = "@"
-# wanted_symbol = "+"  # раскомментируйте, чтобы посмотреть как работает, если не найдено то, что искали
+wanted_token = "@"
+# wanted_token = "+"  # раскомментируйте, чтобы посмотреть как работает, если не найдено то, что искали
 with open(os.path.join(DIR, 'data'), 'r', encoding='UTF-8') as f:
     for line in f:  # считываем файл построчно
-        if wanted_symbol in line:  # пока не найдем нужную информацию
+        if wanted_token in line:  # пока не найдем нужную информацию
             print(line)
             break  # как нашли, заканчиваем чтение файла
     else:
