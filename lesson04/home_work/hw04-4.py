@@ -5,10 +5,6 @@
 from itertools import permutations
 from itertools import repeat
 from itertools import combinations
-'''for el in repeat('j', 6):
-        print(el)'''
-for el in combinations('j', 6):
-    if el > 3:
-        break
-    else:
-        print(el)
+my_list = [1, 2, 2, 3, 4, 1, 2]
+new = [el for el in my_list if my_list.count(el)==1]
+print(new)

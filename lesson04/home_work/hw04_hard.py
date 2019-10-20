@@ -1,9 +1,13 @@
 import my_module
 import random
 from itertools import permutations
-
-
-
+'''for el in repeat('j', 6):
+        print(el)
+for el in combinations('j', 6):
+    if el > 3:
+        break
+    else:
+        print(el)'''
 '''print(random.randint(0, 10))
 print(random.randrange(5))
 print(random.randrange(0, 100, 5))
