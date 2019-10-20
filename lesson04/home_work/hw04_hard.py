@@ -1,5 +1,8 @@
 import my_module
 import random
+from itertools import permutations
+
+
 
 '''print(random.randint(0, 10))
 print(random.randrange(5))
@@ -15,7 +18,7 @@ new2 = {el: el * 3 for el in my_list if el % 2 == 1}
 print(new2)
 print(random.choices(my_list))'''
 
-def generator():
+''''''def generator():
     for el in (10, 20, 30):
         yield el
 g = generator()
