@@ -9,5 +9,5 @@ with open("test_2.txt") as file_obj:
     for line in file_obj:
         lines += line.count("\n")
         letters = len(line)-1
-        print(f"{letters} letters in one line")
+        print(f"{letters} letters in line")
     print(f"String count is {lines}")
